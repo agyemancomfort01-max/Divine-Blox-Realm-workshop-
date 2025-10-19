@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Divine Workshop: BLOXREALM</title>
+    <!-- Load Tailwind CSS for beautiful, responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean, modern look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+        /* Custom scrollbar for aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #9ca3af;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e5e7eb;
+        }
+        .text-shadow-custom {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-4 bg-gray-900">
+
+    <!-- Header Section: Divine Workshop Title -->
+    <header class="w-full max-w-4xl text-center py-8 mb-8">
+        <h1 class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-yellow-500 to-orange-600 tracking-tight text-shadow-custom sm:text-7xl">
+            THE DIVINE WORKSHOP
+        </h1>
+        <p class="mt-4 text-xl font-medium text-gray-300">BLOXREALM Creator Granted Permission Manager (CGPM)</p>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="w-full max-w-4xl grid gap-8 lg:grid-cols-2">
+        
+        <!-- Pillar 1: Command Console & Power -->
+        <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border-2 border-yellow-500/50 transform hover:scale-[1.02] transition duration-300">
+            <div class="flex items-center space-x-3 mb-4">
+                <svg class="w-8 h-8 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                <h2 class="text-3xl font-bold text-white">CGPM Console Access</h2>
+            </div>
+            <p class="text-gray-400 mb-4">
+                The terminal for the Creator Form, accessed via the **`C`** key. All power flows through this command center, enforcing the Law of **GP Superiority**.
+            </p>
+            <h3 class="text-xl font-semibold text-yellow-400 mb-2">Primary Permissions:</h3>
+            <ul class="space-y-2 text-gray-300 text-sm list-none pl-0">
+                <li class="flex items-start">
+                    <span class="text-yellow-500 mr-2 font-bold">&rarr;</span>
+                    **SUMMON [MOB]:** Manifest creatures (e.g., ZOMBIE, VAMPIRE).
+                </li>
+                <li class="flex items-start">
+                    <span class="text-yellow-500 mr-2 font-bold">&rarr;</span>
+                    **CURSE BIOME / HEAL BIOME:** Instant global environmental transformation/restoration.
+                </li>
+                <li class="flex items-start">
+                    <span class="text-yellow-500 mr-2 font-bold">&rarr;</span>
+                    **CURSE MOBS:** Mass extermination of hostile entities.
+                </li>
+                <li class="flex items-start">
+                    <span class="text-yellow-500 mr-2 font-bold">&rarr;</span>
+                    **BLESS PLAYER:** Grants temporary invincibility to the Creator.
+                </li>
+                <li class="flex items-start">
+                    <span class="text-yellow-500 mr-2 font-bold">&rarr;</span>
+                    **TELEPORT [X Y Z]:** Instant map traversal.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Pillar 2: The Creator's Form -->
+        <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border-2 border-red-500/50 transform hover:scale-[1.02] transition duration-300">
+            <div class="flex items-center space-x-3 mb-4">
+                <svg class="w-8 h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                <h2 class="text-3xl font-bold text-white">Creator's Forms</h2>
+            </div>
+            <p class="text-gray-400 mb-4">
+                The Creator operates using two primary forms, toggled via the **`G`** key.
+            </p>
+            
+            <div class="space-y-4">
+                <!-- God Form -->
+                <div class="p-3 bg-red-700/30 border-l-4 border-red-500 rounded-md">
+                    <h3 class="text-xl font-semibold text-red-300">GOD FORM (Toggled by G)</h3>
+                    <p class="text-gray-300 text-sm mt-1">
+                        **Abilities:** Fly freely (**`E`** up, **`Q`** down), No Gravity, Infinite Health. This is the state of absolute design control.
+                    </p>
+                </div>
+                <!-- Player Form -->
+                <div class="p-3 bg-yellow-700/30 border-l-4 border-yellow-500 rounded-md">
+                    <h3 class="text-xl font-semibold text-yellow-300">PLAYER FORM (Default)</h3>
+                    <p class="text-gray-300 text-sm mt-1">
+                        **Abilities:** Standard movement, affected by Gravity. Used for observation and interacting directly with the Realm.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full max-w-4xl text-center mt-12 pt-6 border-t border-gray-700">
+        <p class="text-gray-500 text-sm">&copy; 2025 BLOXREALM | Powered by the Creator's Code</p>
+    </footer>
+
+</body>
+</html>
